@@ -2,6 +2,9 @@
   --white: #ffffff;
   --black: #000000;
   --black-600: #060606;
+  --black-200: #868686;
+  --hover-white: #c2c2c2;
+  --hover-black: #3b3b3b;
 }
 
 * {

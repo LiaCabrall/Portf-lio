@@ -1,0 +1,50 @@
+.text {
+    width: 100%;
+    padding: 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    color: var(--white);
+    background: var(--black-600);
+}
+
+.text h1 {
+    text-transform: uppercase;
+    font-style: inherit;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.container_text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container_project {
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+    gap: 2rem;
+    padding-right: 3rem;
+}
+
+.container_text strong a {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container_text strong a:hover{
+    color: var(--hover-white);
+}
+
+.container_text span {
+    font-size: 1.125rem;
+}

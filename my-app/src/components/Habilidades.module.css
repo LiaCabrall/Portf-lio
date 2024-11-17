@@ -13,10 +13,17 @@
     margin-bottom: 3rem;
 }
 
-.container_text {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
+ul {
+    list-style-type: none;   
+}
+
+ul li::before {
+    content: "⎼";          
+    color: var(--black);          
+    font-weight: normal;   
+    margin-right: 0.5rem;   
+}
+
+.lista {
     font-size: 1.5rem;
-    
 }

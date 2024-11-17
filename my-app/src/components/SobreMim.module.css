@@ -1,5 +1,5 @@
 .content_sobremim {
-    margin: 5rem 5rem;
+    padding: 5rem 5rem;
     display: flex;
     justify-content: space-between;
 
@@ -32,6 +32,10 @@
     font-weight: bold;
     font-style: italic;
 
+}
+
+.text a:hover{
+    color: var(--hover-black);
 }
 
 

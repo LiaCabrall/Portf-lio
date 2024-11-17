@@ -3,7 +3,7 @@ import styles from './Habilidades.module.css';
 export function Habilidades() {
     return (
         <section className={styles.text}>
-            <h1>Habilidade</h1>
+            <h1>Habilidades</h1>
             <div className={styles.lista}>
                 <ul>
                     <li>

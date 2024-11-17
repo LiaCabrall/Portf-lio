@@ -1,0 +1,40 @@
+.content_sobremim {
+    margin: 5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: var(--black);
+    gap: 5rem;
+    width: 37rem;
+}
+
+.text h1 {
+    text-transform: uppercase;
+    font-style: inherit;
+    font-weight: 400;
+    font-size: 3rem;
+
+}
+
+.text p {
+    font-size: 1.5rem;
+}
+
+.text a {
+    font-size: 1.25rem;
+    color: var(--black);
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+.negrito {
+    font-weight: bold;
+}

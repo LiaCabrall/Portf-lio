@@ -5,6 +5,7 @@ import { Trabalhos } from './components/Trabalhos';
 import { Projetos } from './components/Projetos';
 import { Habilidades } from './components/Habilidades';
 import { Footer } from './components/Footer';
+import { Game } from './components/Game';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
       </section>
       <section className="Habilidades">
         <Habilidades />
+      </section>
+      <section className="Game">
+        <Game />
       </section>
       <footer className="Footer">
         <Footer />

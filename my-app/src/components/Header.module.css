@@ -71,24 +71,28 @@
     color: var(--white);
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 450px) {
+
+    .header {
+        margin: 0;
+        padding: 0;
+    }
+
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-40%, -50%);
+    }
+
     .text h1 {
         font-size: 7rem;
-        text-align: left;
+        width: 100%;
         margin-left: -3.5rem;
     }
-
-    .img {
-        margin-right: -1rem;
-    }
-    
     .content_text strong {
         font-size: 6rem;
-        margin-right: 18rem;
-    }
+        margin-left: -3rem;
 
-    .content_text>span {
-        margin-right: 17rem;
-    
     }
 }

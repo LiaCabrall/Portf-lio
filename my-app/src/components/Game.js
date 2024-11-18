@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from './Game.module.css';
 
 export function Game() {
-    const [secret, setSecret] = useState(generateSecret());
+    const [secret] = useState(generateSecret());
     const [guess, setGuess] = useState('');
     const [attempts, setAttempts] = useState([]);
 

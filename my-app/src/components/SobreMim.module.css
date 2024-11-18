@@ -11,7 +11,7 @@
     align-items: start;
     color: var(--black);
     gap: 5rem;
-    width: 37rem;
+    width: 50%;
 }
 
 .text h1 {

@@ -1,4 +1,5 @@
 import './global.css';
+import styles from './App.module.css';
 import { Header } from './components/Header';
 import { SobreMim } from './components/SobreMim';
 import { Trabalhos } from './components/Trabalhos';
@@ -9,7 +10,7 @@ import { Game } from './components/Game';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.wrapper}>
 
       <header className="Header">
         <Header />

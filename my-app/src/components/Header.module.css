@@ -6,6 +6,7 @@
 }
 
 .header {
+    position: relative;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -23,11 +24,14 @@
 }
 
 .text {
-    position: relative;
-    top: -600px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     color: var(--black);
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -44,7 +48,7 @@
     flex-direction: column;
     align-items: center;
     gap: 0.1rem;
-    margin-right: -1rem;
+    margin-right: -2rem;
 
 }
 
@@ -63,9 +67,29 @@
     font-weight: 400;
     font-style: inherit;
 
-
 }
 
 .color {
     color: var(--white);
+}
+
+@media screen and (max-width: 1020px) {
+    .text {
+        width: 100%;
+    }
+
+    .text h1 {
+        font-size: 7rem;
+        margin-right: 25rem;
+    }
+    
+    .content_text strong {
+        font-size: 6rem;
+        margin-right: 20rem;
+    }
+
+    .content_text>span {
+        margin-right: 18rem;
+    
+    }
 }

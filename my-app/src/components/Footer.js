@@ -7,7 +7,7 @@ export function Footer() {
             <div className={styles.rows}>
                 <div className={styles.container_row}>
                     <strong>Linkedin</strong>
-                    <span><a href="https://www.linkedin.com/in/lianacabral/">@lianacabral</a></span>
+                    <span><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/lianacabral/">@lianacabral</a></span>
                 </div>
                 <div className={styles.container_row}>
                     <strong>E-mail</strong>

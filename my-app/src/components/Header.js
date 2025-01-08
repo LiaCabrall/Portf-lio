@@ -9,10 +9,10 @@ export function Header() {
             </div>
             <div className={styles.text}>
                 <h1>
-                    Liana Ca<span className={styles.color}>bral</span>
+                    Liana Cabral
                 </h1>
                 <div className={styles.content_text}>
-                    <strong>PORTFÓ<span className={styles.color}>LIO</span></strong>
+                    <strong>PORTFÓLIO</strong>
                     <span>UX UI Designer</span>
                 </div>
             </div>

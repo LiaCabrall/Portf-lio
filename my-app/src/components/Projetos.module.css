@@ -8,6 +8,11 @@
     background: var(--black-600);
 }
 
+.projects img {
+    width: 180px;
+    height: 180px;
+}
+
 .text h1 {
     text-transform: uppercase;
     font-style: inherit;
@@ -32,7 +37,6 @@
     flex-direction: column;
     width: 16rem;
     gap: 2rem;
-    padding-right: 3rem;
 }
 
 .container_text strong a {

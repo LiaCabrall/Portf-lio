@@ -17,16 +17,17 @@
 .img {
     display: flex;
     justify-content: right;
-    margin-top: -1.5rem;
+    margin-top: -1.4rem;
     overflow: hidden;
 
 }
 
 .text {
     position: absolute;
-    width: 100%;
     text-align: center;
-    top: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: var(--white);
     display: flex;
     flex-direction: column;

@@ -39,6 +39,9 @@
     cursor: pointer;
 }
 
+.img img{
+    max-width: 24rem;
+}
 
 .negrito {
     font-weight: bold;

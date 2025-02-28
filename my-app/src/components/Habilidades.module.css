@@ -13,8 +13,28 @@
     margin-bottom: 3rem;
 }
 
+.listas {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+.lista {
+    font-size: 1.125rem;
+    max-width: 616px;
+    min-width: 400px;
+}
+
+.lista h2 {
+    text-transform: uppercase;
+    font-style: inherit;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
 ul {
-    list-style-type: none;   
+    list-style-type: none; 
 }
 
 ul li::before {
@@ -24,6 +44,3 @@ ul li::before {
     margin-right: 0.5rem;   
 }
 
-.lista {
-    font-size: 1.5rem;
-}

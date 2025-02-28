@@ -12,16 +12,16 @@ export function Habilidades() {
                             Design de Interface
                         </li>
                         <li>
-                            Design de experiência do usuário
+                            Design de Experiência do Usuário
                         </li>
                         <li>
-                        Design Responsivo
+                            Design Responsivo
                         </li>
                         <li>
-                            Criação de Wireframes
+                            Criação de wireframes
                         </li>
                         <li>
-                            Pesquisa com Usuários
+                            Pesquisa com usuários
                         </li>
                         <li>
                             Testes de Usabilidade
@@ -40,10 +40,10 @@ export function Habilidades() {
                             Resiliência
                         </li>
                         <li>
-                           Agilidade
+                            Agilidade
                         </li>
                         <li>
-                            Pensamento crítico
+                            Pensamento Crítico
                         </li>
                         <li>
                             Flexibilidade
@@ -52,10 +52,10 @@ export function Habilidades() {
                             Criatividade
                         </li>
                         <li>
-                            Tomada de decisões
+                            Tomada de Decisões
                         </li>
                         <li>
-                            Comunicação e escuta ativa
+                            Comunicação e Escuta Ativa
                         </li>
                     </ul>
 

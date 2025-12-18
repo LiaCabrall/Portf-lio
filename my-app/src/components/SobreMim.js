@@ -13,7 +13,7 @@ export function SobreMim() {
                         trabalho quanto nos estudos. Minhas
                         especialidades incluem o uso do <span className={styles.negrito}>Figma</span> e a
                         criação de <span className={styles.negrito}>Design Systems</span>.</p>
-                    <a rel="noopener noreferrer" target="_blank" href='https://drive.google.com/file/d/1vfECvYRWairNhB5bHiK9snnoqPwn3MSE/view?usp=sharing'>Meu currículo</a>
+                    <a rel="noopener noreferrer" target="_blank" href='https://drive.google.com/file/d/18eKR87g6YKPKWtLhgSujmC1IVuakJ92G/view?usp=sharing'>Meu currículo</a>
             </div>
             <div className={styles.img}>
                 <img src={foto2} alt='foto de Liana' />
